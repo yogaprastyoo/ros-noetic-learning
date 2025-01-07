@@ -1,0 +1,21 @@
+# ROS build directories
+build/
+devel/
+install/
+logs/
+
+# Catkin tools specific files
+.catkin_tools/
+
+
+# Dynamixel SDK specific files (if applicable)
+**/DynamixelSDK
+**/*.zip
+**/*.rar
+
+# Temporary and session files
+**/Session.vim
+
+# IDE specific files
+.vscode/
+.idea/

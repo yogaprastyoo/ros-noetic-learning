@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>launcher</name>
+  <version>0.0.0</version>
+  <description>The launcher package</description>
+  <author email="yogaprastyobayu@gmail.com">Yoga Prastyo Bayu Laksono</author>
+  <maintainer email="yogaprastyobayu@gmail.com">Yoga Prastyo Bayu Laksono</maintainer>
+  <license>Proprietary</license>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
