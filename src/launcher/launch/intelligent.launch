@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="intelligent" type="intelligent_learning" name="intelligent" output="screen"/>
+</launch>
