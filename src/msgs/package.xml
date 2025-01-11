@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>msgs</name>
+  <version>0.0.0</version>
+  <description>This package contains custom messages used for communication with other nodes</description>
+
+  <author email="yogaprastyobayu@gmail.com">Yoga Prastyo Bayu Laksono</author>
+  <maintainer email="yogaprastyobayu@gmail.com">Yoga Prastyo Bayu Laksono</maintainer>
+  <license>Proprietary</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>
