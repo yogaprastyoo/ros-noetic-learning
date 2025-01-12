@@ -13,7 +13,7 @@
 /**
  * Struct
  */
-struct RobotData {
+struct RobotInfo {
     int id;
     std::string name;
 };
@@ -32,7 +32,7 @@ private:
     ros::Subscriber subscribe_chatter_;
 
     // variable
-    RobotData robot_;
+    RobotInfo robot_;
     int id_counter_;
 
     // talker.cc
