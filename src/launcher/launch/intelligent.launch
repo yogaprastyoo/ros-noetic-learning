@@ -1,3 +1,6 @@
 <launch>
+    <param name="robotId" value="1"/>
+    <param name="robotName" value="Sora"/>
+
     <node pkg="intelligent" type="intelligent_learning" name="intelligent" output="screen"/>
 </launch>
