@@ -28,12 +28,12 @@ public:
 
 private:
     ros::NodeHandle node_handle_;
-    ros::Publisher publisher_chatter_;
-    ros::Subscriber subscribe_chatter_;
+    ros::Publisher publisher_robot_info_;
+    ros::Subscriber subscribe_robot_info_;
 
     // variable
     RobotInfo robot_;
-    int id_counter_;
+    // int id_counter_;
 
     // talker.cc
     void Talker();
@@ -42,7 +42,7 @@ private:
     void Listener();
 
     // intelligent.cc
-    void ChatterCallback(const msgs::RobotInfo &message);
+    void RobotInfoCallback(const msgs::RobotInfo &message);
 
     // running.cc
     void Start();

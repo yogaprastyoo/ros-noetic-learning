@@ -1,6 +1,8 @@
 <launch>
     <param name="robotId" value="1"/>
     <param name="robotName" value="Sora"/>
+    
+    <include file="$(find launcher)/launch/communication_robot.launch"/>
 
     <node pkg="intelligent" type="intelligent_learning" name="intelligent" output="screen"/>
 </launch>

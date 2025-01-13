@@ -6,5 +6,5 @@ void Intelligent::Talker() {
     message.id = robot_.id;
     message.name = robot_.name;
 
-    publisher_chatter_.publish(message);
+    publisher_robot_info_.publish(message);
 }
